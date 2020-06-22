@@ -18,5 +18,6 @@ let package = Package(
         .testTarget(
             name: "sheetTests",
             dependencies: ["sheet"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
