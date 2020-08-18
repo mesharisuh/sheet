@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         c.view.backgroundColor = .red
 
         return c
-    }()
+    }() 
 
     private lazy var sheetPresenter = SheetPresenter()
 
